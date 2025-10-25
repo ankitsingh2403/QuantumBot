@@ -3,7 +3,7 @@ import { Link } from "react-router-dom";
 import { toast } from "react-hot-toast";
 import { useNavigate } from "react-router-dom";
 
-import bot2 from "/page-photos/robot-2.png";
+
 import bot1 from "/page-photos/bot1.png";
 
 import PageImage from "../components/auth/PageImage";

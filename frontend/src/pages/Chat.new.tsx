@@ -36,12 +36,12 @@ type Message = {
   timestamp?: string;
 };
 
-type ChatSession = {
-  _id: string;
-  title: string;
-  messages: Message[];
-  updatedAt: string;
-};
+// type ChatSession = {
+//   _id: string;
+//   title: string;
+//   messages: Message[];
+//   updatedAt: string;
+// };
 
 const Chat = () => {
   const auth = useAuth();

@@ -1,7 +1,7 @@
 import React, { useState } from "react";
 import { Link, useNavigate } from "react-router-dom";
 
-import bot2 from "/page-photos/robot-2.png";
+
 import bot3 from "/page-photos/bot3.png";
 
 import PageImage from "../components/auth/PageImage";
