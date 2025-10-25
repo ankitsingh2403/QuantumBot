@@ -15,7 +15,7 @@ const app: Application = express();
 
 // -------------------- MIDDLEWARES --------------------
 // Configure CORS to allow the frontend origin(s). In development we allow common Vite ports
-const allowedOrigins = (process.env.ALLOWED_ORIGINS || process.env.DOMAIN || "http://localhost:5173,http://localhost:5174,http://localhost:5175,http://localhost:5176,https://quantum-bot-chi.vercel.app").split(",").map(s => s.trim());
+const allowedOrigins = (process.env.ALLOWED_ORIGINS || process.env.DOMAIN || "http://localhost:5173,http://localhost:5174,http://localhost:5175,http://localhost:5176,https://quantum-bot-zxdh.vercel.app").split(",").map(s => s.trim());
 
 app.use(
   cors({
