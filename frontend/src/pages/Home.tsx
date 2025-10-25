@@ -1,0 +1,40 @@
+import mainBot from "/page-photos/homepage-bot.png";
+import mainBot1 from "/page-photos/pngegg.png";
+import ui1 from "/page-photos/UI-1.png";
+
+import { NavLink } from "react-router-dom";
+
+import Section from "../components/home/Sections";
+
+import styles from "./Home.module.css";
+
+const Home = () => {
+  return (
+    <div className={styles.parent}>
+      <Section
+        src={mainBot1}
+        alt="main-bot"
+        animateImg={true}
+        imgStyle={styles.ui1}
+        reverse={false}
+      >
+        <h2>| NEXT GEN PLATFORM</h2>
+        <h1>
+          YOUR OWN PERSONAL <span className={styles.highlight}>CHAT BOT</span>
+        </h1>
+        <p>
+          Discover a state-of-the-art, intuitive chat experience that combines
+          robust security with complete confidentiality, enabling effortless,
+          natural interactions while providing expert guidance across a wide
+          spectrum of topics.
+        </p>
+
+        <NavLink to="/login" className={styles.btn}>
+          Get Started For Free
+        </NavLink>
+      </Section>
+    </div>
+  );
+};
+
+export default Home;
